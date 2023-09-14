@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+header, footer {
+    min-height: 15%;
+    width: 100%;
+    background-color: red;
+}
+
+.main {
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.left {
+    min-height: 100%;
+    width: 25%;
+    background-color: greenyellow;
+    float: inline-start;
+}
+
+.right-wrapper {
+    height: 100%;
+    width: 75%;
+    float: inline-end;
+}
+
+.mid {
+    height: 100%;
+    width: 60%;
+    background-color:brown;
+    float: inline-start;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    background-color:chocolate;
+    float: inline-end;
+}
+
+.centered-child-container {
+    position: relative;
+    overflow: auto;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
